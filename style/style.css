@@ -1,9 +1,4 @@
-body{
-    background-image: url("/img/fondoJuego.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 100%; 
-}
+
 .colornav{
     background: midnightblue;
 }
@@ -15,4 +10,32 @@ border-radius: 20px;
 .texto{
     margin: 1%;
     text-align: justify;
+}
+
+.cuadroazuli{
+    background: rgba(1, 0, 70, 0.7);
+    margin: 1%;
+    border-radius: 20px;
+    color: aliceblue;
+    width: 200px;
+    height: 200px;
+    
+    }
+    .cuadroazul{
+        background: rgba(1, 0, 70, 0.7);
+        margin: 1%;
+        border-radius: 20px;
+        color: aliceblue;
+        }
+.container-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.imgKorvax{
+    background-image: url("./img/Korvax.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
 }
